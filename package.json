@@ -1,0 +1,26 @@
+{
+  "scripts": {
+    "layer0:dev": "layer0 dev",
+    "layer0:build": "layer0 build",
+    "layer0:deploy": "layer0 deploy",
+    "start": "node ./bin/www"
+  },
+  "name": "layer0-express-example",
+  "version": "0.0.0",
+  "private": true,
+  "dependencies": {
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "express": "~4.16.1",
+    "http-errors": "~1.6.3",
+    "jade": "~1.11.0",
+    "morgan": "~1.9.1"
+  },
+  "devDependencies": {
+    "@layer0/cli": "^3.16.11",
+    "@layer0/core": "file:.yalc/@layer0/core",
+    "@layer0/devtools": "^3.16.11",
+    "@layer0/express": "file:.yalc/@layer0/express",
+    "@layer0/prefetch": "^3.16.11"
+  }
+}
